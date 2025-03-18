@@ -54,6 +54,51 @@
       </div>
     </div>
 
+    <div
+      class="container border mx-auto rounded shadow-lg p-10 flex justify-center items-center flex-col mt-6"
+    >
+      <h2 class="text-2xl text-blue-500 font-bold mb-6">Connexion</h2>
+      <form action="">
+        <div class="mb-6">
+          <label
+            for="email"
+            class="block mb-2 text-sm font-medium text-gray-500"
+            >E-mail</label
+          >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm block w-full p-2 rounded-lg"
+          />
+        </div>
+
+        <div class="mb-6">
+          <label
+            for="password"
+            class="block mb-2 text-sm font-medium text-gray-500"
+            >Mot de passe</label
+          >
+          <!-- w-full signifie de prendre toute la largeur du container, p=> padding pour agrandir l'input -->
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="bg-gray-50 border border-gray-300 text-gray-900 block text-sm w-full p-2 rounded-lg"
+          />
+        </div>
+
+        <div class="mb-6">
+          <button
+            type="submit"
+            class="inline-flex items-center py-2 px-3 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-900"
+          >
+            Valider
+          </button>
+        </div>
+      </form>
+    </div>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
